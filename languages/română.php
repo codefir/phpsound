@@ -32,7 +32,8 @@ $LNG['username'] = 'Utilizator';
 $LNG['email'] = 'Email';
 $LNG['captcha'] = 'Captcha';
 $LNG['username_or_email'] = 'Utilizator sau email';
-$LNG['welcome_desc'] = 'împarte-ți muzica, conectează-te cu artiștii, explorează noi melodii';
+$LNG['welcome_desc'] = 'Conectați-vă cu lumea prin intermediul muzicii.';
+$LNG['welcome_sub_desc'] = 'Împarte-ți muzica, conectează-te cu alți artiști, explorează conținut nou, toate într-un singur loc.';
 $LNG['join_now'] = 'Alătură-te';
 $LNG['learn_more'] = 'Află mai multe';
 $LNG['creators'] = 'Creatori';
@@ -41,6 +42,7 @@ $LNG['audience'] = 'Audiență';
 $LNG['organize'] = 'Organizează';
 $LNG['featured'] = 'Recomandat';
 $LNG['popular'] = 'Populare';
+$LNG['popular_desc'] = 'Muzică în trend în această săptămână';
 $LNG['latest'] = 'Recente';
 $LNG['upload_desc'] = 'Încarcă-ți sunetele, melodiile, podcast-urile pentru lume';
 $LNG['audience_desc'] = 'Conectează-te cu comunitatea ta și crește-ți audiența';
@@ -442,12 +444,11 @@ $LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Manageriază Recl
 $LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Manageriază Categorii';
 $LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Info Pagini';
 $LNG['admin_menu_newsletter']			= $LNG['admin_ttl_newsletter'] 		= 'Buletin Informativ';
+$LNG['admin_menu_license']		    	= $LNG['admin_ttl_license'] 		= 'Licență';
 
 $LNG['admin_ttl_title'] = 'Titlu';
-$LNG['admin_sub_title'] = 'Titlul site-ului';
 
 $LNG['logo'] = 'Siglă';
-$LNG['admin_sub_logo'] = 'Sigla site-ului (format PNG)';
 
 $LNG['admin_ttl_captcha'] = 'Captcha';
 $LNG['admin_sub_captcha'] = 'Activează Captcha la înregistrare';
@@ -701,6 +702,7 @@ $LNG['plays_today'] = 'Redări Astăzi';
 $LNG['plays_yesterday'] = 'Redări Ieri';
 $LNG['plays_total'] = 'Redări Totale';
 $LNG['total_plays'] = 'Redări Totale';
+$LNG['unique_plays'] = 'Redări Unice';
 $LNG['plays_this_month'] = 'Redări luna aceasta';
 $LNG['tracks_uploaded'] = 'Melodii Încărcate';
 $LNG['used_space'] = 'Spațiu Folosit';
@@ -791,6 +793,9 @@ $LNG['volume'] = 'Volum';
 $LNG['share_facebook'] = 'Împărtășește pe Facebook';
 $LNG['share_twitter'] = 'Împărtășește pe Twitter';
 $LNG['share_pinterest'] = 'Împărtășește pe Pinterest';
+$LNG['share_reddit'] = 'Împărtășește pe Reddit';
+$LNG['share_tumblr'] = 'Împărtășește pe Tumblr';
+$LNG['share_linkedin'] = 'Împărtășește pe Linkedin';
 $LNG['share_email'] = 'Împărtășește pe email';
 $LNG['share_sn'] = 'Împărtășește pe rețelele de socializare';
 $LNG['share_url'] = 'Împărtășește URL';
@@ -807,6 +812,9 @@ $LNG['like_track_not_exist'] = 'Această melodie nu există sau a fost ștearsă
 $LNG['liked_this'] = 'a apreciat';
 
 // MISC //
+$LNG['license_key'] = 'Cheie licență';
+$LNG['change'] = 'Schimbă';
+$LNG['validate_license'] = 'Vă rugăm să validați <strong>cheia de licență</strong> (<strong>codul de achiziție</strong>) înainte de a continua.';
 $LNG['from'] = 'De la';
 $LNG['to'] = 'Pană la';
 $LNG['type'] = 'Tip';
@@ -930,7 +938,9 @@ $LNG['yearly'] = 'Anual';
 $LNG['days_left'] = 'zile rămase';
 $LNG['account_status'] = 'Starea curentă a contului';
 $LNG['transactions_history'] = 'Istoric tranzacții';
-$LNG['history'] = 'Istorie';
+$LNG['history'] = 'Istoric';
+$LNG['no_history'] = 'Nu există istoric.';
+$LNG['clear_history'] = 'Șterge istoric';
 $LNG['payments'] = 'Plăți';
 $LNG['completed'] = 'Completă';
 $LNG['refunded'] = 'Rambursată';

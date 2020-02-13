@@ -32,7 +32,8 @@ $LNG['username'] = 'Kullanıcı adı';
 $LNG['email'] = 'Email';
 $LNG['captcha'] = 'Captcha';
 $LNG['username_or_email'] = 'Kullanıcı adı ya da email';
-$LNG['welcome_desc'] = 'Müziğini paylaş, Sanatçılar ile iletişim kur, Yeni içerikleri keşfet';
+$LNG['welcome_desc'] = 'Müzikle dünyaya bağlanın.';
+$LNG['welcome_sub_desc'] = 'Müziğini paylaş, sanatçılar ile iletişim kur, yeni içerikleri keşfet, hepsi tek bir yerde.';
 $LNG['join_now'] = 'Hemen Katıl';
 $LNG['learn_more'] = 'Daha fazalası';
 $LNG['creators'] = 'Oluşturucular';
@@ -41,6 +42,7 @@ $LNG['audience'] = 'İzleyici';
 $LNG['organize'] = 'Düzenle';
 $LNG['featured'] = 'Featured';
 $LNG['popular'] = 'Popüler';
+$LNG['popular_desc'] = 'Bu hafta trend olan müzikler';
 $LNG['latest'] = 'En Son';
 $LNG['upload_desc'] = 'Müziğini, sesini, podcastini yükle bütün dünyaya gönder';
 $LNG['audience_desc'] = 'Topluluğumuza katıl izleyici sayını arttır';
@@ -442,12 +444,11 @@ $LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Reklamları Yöne
 $LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Kategorileri Yönet';
 $LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Bilgi Sayfaları';
 $LNG['admin_menu_newsletter']			= $LNG['admin_ttl_newsletter'] 		= 'Bülten';
+$LNG['admin_menu_license']		    	= $LNG['admin_ttl_license'] 		= 'Lisans';
 
 $LNG['admin_ttl_title'] = 'Başlık';
-$LNG['admin_sub_title'] = 'Sitenin başlığı';
 
 $LNG['logo'] = 'Logo';
-$LNG['admin_sub_logo'] = 'Sitenin logosu (PNG format)';
 
 $LNG['admin_ttl_captcha'] = 'Captcha';
 $LNG['admin_sub_captcha'] = 'Kayıtta captcha açık';
@@ -701,6 +702,7 @@ $LNG['plays_today'] = 'Bugün dinlenenler';
 $LNG['plays_yesterday'] = 'Dün dinlenenler';
 $LNG['plays_total'] = 'Toplam dinleme';
 $LNG['total_plays'] = 'Toplam dinlenme';
+$LNG['unique_plays'] = 'Eşsiz dinlenenler';
 $LNG['plays_this_month'] = 'Bu ay dinlenen';
 $LNG['tracks_uploaded'] = 'Yüklenen parçalar';
 $LNG['used_space'] = 'Kullanılmış alan';
@@ -791,6 +793,9 @@ $LNG['volume'] = 'Ses';
 $LNG['share_facebook'] = ' Facebook ta paylaş';
 $LNG['share_twitter'] = ' Twitter da paylaş';
 $LNG['share_pinterest'] = ' Pinterest de paylaş';
+$LNG['share_reddit'] = 'Reddit de paylaş';
+$LNG['share_tumblr'] = 'Tumblr de paylaş';
+$LNG['share_linkedin'] = 'Linkedin de paylaş';
 $LNG['share_email'] = ' Email ile paylaş';
 $LNG['share_sn'] = 'Sosyal ağlarda paylaş';
 $LNG['share_url'] = ' URL paylaş';
@@ -807,6 +812,9 @@ $LNG['like_track_not_exist'] = 'Bu parça mevcut değil ya da silinmiş.';
 $LNG['liked_this'] = 'bunu beğendi';
 
 // MISC //
+$LNG['license_key'] = 'Lisans anahtarı';
+$LNG['change'] = 'Değişiklik';
+$LNG['validate_license'] = 'Lütfen devam etmeden önce <strong>lisans anahtarınızı</strong> (<strong>satın alma kodu</strong>) doğrulayın.';
 $LNG['from'] = 'kimden';
 $LNG['to'] = 'kime';
 $LNG['type'] = 'Type';
@@ -931,6 +939,8 @@ $LNG['days_left'] = 'gün kaldı';
 $LNG['account_status'] = 'Hesabınızın şuanki durumu';
 $LNG['transactions_history'] = 'Para transfer geçmişi';
 $LNG['history'] = 'Tarih';
+$LNG['no_history'] = 'Nu există istoric.';
+$LNG['clear_history'] = 'Geçmişi temizle';
 $LNG['payments'] = 'Ödemeler';
 $LNG['completed'] = 'Tamamlandı';
 $LNG['refunded'] = 'Geri Ödendi';
